@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  width: 100vw;
+  display: flex;
+  padding-top: 60px;
+  justify-content: center;
+  background-color: #f3f5f7;
+  font-family: "Inter", sans-serif;
+}
+
+.containerParents {
+  width: 377px;
+  row-gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.Todotitle {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 24px;
+}
+
+.Notask {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.footer {
+  display: flex;
+  column-gap: 4px;
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.pineCone {
+  color: #3b73ed;
+}
+
+.count {
+  width: 345px;
+  display: flex;
+  font-size: 14px;
+  padding-top: 16px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  border-top: 1px solid #e5e7eb;
+}
+
+.countTitle {
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.deleteBut {
+  border: none;
+  color: #ef4444;
+  background-color: transparent;
+}
