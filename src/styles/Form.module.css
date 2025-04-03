@@ -16,6 +16,7 @@
 .inputCont {
   width: 280px;
   border-radius: 6px;
+  padding-left: 10px;
   border: 1px solid #e4e4e7;
 }
 

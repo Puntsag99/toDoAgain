@@ -11,7 +11,6 @@ export const ToDocont = () => {
         <Buttons />
       </div>
       <p className={styles.Notask}>No tasks yet. Add one above!</p>
-      <CheckBox />
 
       <div className={styles.count}>
         <p className={styles.countTitle}> 0 of 1 tasks completed</p>
