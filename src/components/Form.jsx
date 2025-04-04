@@ -1,11 +1,8 @@
 import styles from "@/styles/Form.module.css";
 import { useState } from "react";
-import { CheckBox } from "@/components";
 
-export const Form = () => {
+export const Form = ({ lists, setLists }) => {
   const [userInputValue, setUserInputValue] = useState("");
-
-  const [lists, setLists] = useState([]);
 
   const handleChange = (event) => {
     setUserInputValue(event.target.value);
@@ -39,7 +36,6 @@ export const Form = () => {
       <button className={styles.addButton} onClick={handleClcik}>
         Add
       </button>
-      {/* <CheckBox /> */}
     </div>
   );
 };

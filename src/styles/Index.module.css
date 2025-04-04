@@ -9,7 +9,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.containerParents {
+.indexContainer {
   width: 377px;
   row-gap: 20px;
   display: flex;
@@ -28,7 +28,7 @@ body {
   font-size: 14px;
   color: #6b7280;
   font-weight: 400;
-  padding-top: 20px;
+  /* padding-top: 10px; */
 }
 
 .footer {
@@ -41,25 +41,4 @@ body {
 
 .pineCone {
   color: #3b73ed;
-}
-
-.count {
-  width: 345px;
-  display: flex;
-  font-size: 14px;
-  padding-top: 16px;
-  margin-bottom: 20px;
-  justify-content: space-between;
-  border-top: 1px solid #e5e7eb;
-}
-
-.countTitle {
-  color: #6b7280;
-  font-weight: 500;
-}
-
-.deleteBut {
-  border: none;
-  color: #ef4444;
-  background-color: transparent;
 }
